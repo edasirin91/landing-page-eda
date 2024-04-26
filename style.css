@@ -1,0 +1,198 @@
+/* Write some CSS below */
+body{
+    font-size: 14px;
+    font-family: roboto;
+    margin: 0;
+    padding : 0;
+}
+
+h1{
+    font-size:  20px;
+}
+
+h2{
+    font-size:  20px;
+
+}
+
+h3{
+    font-size:  20px;
+}
+
+h4 {
+
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 110;
+    margin: 50px;
+}
+
+h5 {
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 2px;
+    font-style: oblique;
+}
+h1,h2,h3,h4,h5 {
+
+    font-family: roboto;
+}
+
+a {
+
+    color: #000;
+}
+
+a:hover {
+background-color: brown;
+color: color #B2A396;
+opacity: 90;
+}
+
+.banner{
+
+    background-image:url(images/marre-image.jpg);
+    background-size: cover;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 180px;
+    padding-right: 100px;
+    padding-left: 80px;
+    color: black;
+    text-align: center;
+    filter: brightness(0.9);
+    
+}
+
+
+.button-red {
+    background-color: #B2A396;
+    padding: 15px 25px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#btn-btn {
+
+    transition: 0.6s;
+    display: inline-block;
+}
+
+#btn-btn:hover {
+    transform: translateY(10px);
+}
+
+.banner p{
+    color : rgb(0, 0, 0);
+    font-size : 13px;
+    margin-bottom: 30px;
+    
+  
+}
+
+.section-white{
+
+    background-color : white;
+    color : black;
+    margin : 45px;
+}
+
+.container {
+
+    margin: 20px auto;
+    width: 900px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.temoignages {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 16px;
+}
+
+.temoignage {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 16px;
+}
+
+.card-temoignages {
+    background-color: #F7F3E7;
+    filter: brightness(0.9);
+    box-shadow:0 0 10px rgba(0,0,0,0.9);
+    border-radius: 4px;
+    padding: 20px;
+
+}
+
+.card-beige {
+    background-color: #F7F3E7;
+    filter: brightness(0.9);
+    box-shadow:0 0 10px rgba(0,0,0,0.9);
+    border-radius: 4px;
+    padding: 20px;
+
+   
+}
+
+.card-beige img{
+border-radius: 4px;
+width: 80%;
+height: 160px;
+object-fit: cover;
+padding: 110px auto;
+}
+
+.footer {
+    margin-top: 40px;
+    margin-right: -18px;
+    background-color: #B2A396;
+    color: black;
+    padding: 2px 0;
+    font-size: 20px;
+    
+}
+
+.section-white h2 {
+    margin-bottom: 40px;
+    padding-left: 3%;
+}
+
+.list-inline {
+list-style : none;
+padding-left: 0;
+text-align: center;
+}
+
+.list-inline li i {
+
+font-size: 20px;
+color: rgb(0, 0, 0);
+margin: 1px; 
+padding: 10px;
+}
+
+.list-inline li {
+display: inline;               
+}               
+
+.list-inline li i:hover {
+opacity: 0.7;
+} 
+
+.button-new {
+    background-color: #B2A396;
+    padding: 9px 17px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
